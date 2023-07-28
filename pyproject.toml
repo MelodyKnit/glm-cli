@@ -1,0 +1,17 @@
+[tool.poetry]
+name = "glm-cli"
+version = "0.1.0"
+description = ""
+authors = ["MelodyKnit <2711402357@qq.com>"]
+readme = "README.md"
+packages = [{include = "glm_cli"}]
+
+[tool.poetry.dependencies]
+python = "^3.10"
+click = "^8.1.6"
+transformers = "^4.31.0"
+
+
+[build-system]
+requires = ["poetry-core"]
+build-backend = "poetry.core.masonry.api"
